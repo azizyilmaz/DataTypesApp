@@ -15,6 +15,23 @@ namespace DataTypesApp
         }
         static void Main(string[] args)
         {
+            string s = "35";
+            string s2 = "Kapı";
+            string s3 = "922337203685477580";
+            string s4 = null;
+            sbyte x = 127;
+            short y = 32767;
+            int z = 2147483647;
+            long t = 922337203685477580;
+            int z2 = Convert.ToInt32(x);
+            int z3 = Convert.ToInt32(y);
+            //int z4 = Convert.ToInt32(t);// System.OverflowException: 'Değer bir Int32 için çok büyük ya da çok küçüktü.'
+            int z5 = Convert.ToInt32(s4);
+            int ss = Int32.Parse(s);
+            //int ss2 = Int32.Parse(s2);// System.FormatException: 'Giriş dizesi doğru biçimde değildi.'
+            //int ss3 = Int32.Parse(s3);// System.OverflowException: 'Değer bir Int32 için çok büyük ya da çok küçüktü.'
+            //int ss4 = Int32.Parse(s4);// System.ArgumentNullException: 'Değer null olamaz.Parametre adı: String'
+
             int i = 1;
             int j = 2;
             Metod(i, ref j, out int k);

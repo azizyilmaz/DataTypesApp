@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesApp", "DataTypesApp\DataTypesApp.csproj", "{07BD3322-46B7-43CF-810C-768656F5ED88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyWordsApp", "KeyWordsApp\KeyWordsApp.csproj", "{8BE4848E-C06A-4910-B800-2BC5375A4FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversionApp", "TypeConversionApp\TypeConversionApp.csproj", "{3C66164B-5C7F-4A1E-BAA8-2186631CF820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{07BD3322-46B7-43CF-810C-768656F5ED88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07BD3322-46B7-43CF-810C-768656F5ED88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07BD3322-46B7-43CF-810C-768656F5ED88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE4848E-C06A-4910-B800-2BC5375A4FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE4848E-C06A-4910-B800-2BC5375A4FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE4848E-C06A-4910-B800-2BC5375A4FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE4848E-C06A-4910-B800-2BC5375A4FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C66164B-5C7F-4A1E-BAA8-2186631CF820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C66164B-5C7F-4A1E-BAA8-2186631CF820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C66164B-5C7F-4A1E-BAA8-2186631CF820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C66164B-5C7F-4A1E-BAA8-2186631CF820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
